@@ -26,7 +26,7 @@ export default function GeneratedLink({ link }: GeneratedLinkProps) {
       </div>
       <button
         onClick={copyToClipboard}
-        className="mt-3 flex w-full items-center justify-center gap-2 rounded-lg bg-gray-200 py-2 font-medium text-gray-800 transition duration-200 hover:bg-gray-300"
+        className="mt-3 flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg bg-gray-200 py-2 font-medium text-gray-800 transition duration-200 hover:bg-gray-300"
       >
         {copied ? (
           <>
